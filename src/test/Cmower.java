@@ -40,14 +40,6 @@ public class Cmower {
         }
     }
 
-    public static void main(String[] args) {
-        int[] arr = { 2, 1, 5, 4, 9, 8, 6, 7, 10, 3, 3 };
-        printArr(arr);
-        selectSort(arr);
-//        bubbleSort(arr);
-        printArr(arr);
-    }
-
     /**
      *
      * @param array
@@ -69,5 +61,13 @@ public class Cmower {
         return array;
     }
 
+
+    public static void main(String[] args) {
+        int[] arr = { 2, 1, 5, 4, 9, 8, 6, 7, 10, 3, 3 };
+        printArr(arr);
+        selectSort(arr);
+//        bubbleSort(arr);
+        printArr(arr);
+    }
 
     }

@@ -69,8 +69,5 @@ public class Cmower {
         return array;
     }
 
-    public static void test(int[] array){
-        array
-    }
 
     }
